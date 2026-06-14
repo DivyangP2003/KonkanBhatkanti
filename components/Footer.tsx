@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Facebook, Instagram, Twitter, Mail, MapPin, Phone } from 'lucide-react'
+import { Share2, Heart, MessageCircle, Mail, MapPin, Phone } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -115,14 +115,14 @@ export default function Footer() {
         {/* Social Links */}
         <div className="border-t border-white/10 pt-8 mb-8">
           <div className="flex items-center justify-center gap-6">
-            <a href="#" className="text-white/70 hover:text-primary-light transition-colors">
-              <Facebook size={20} />
+            <a href="#" className="text-white/70 hover:text-primary-light transition-colors" aria-label="Facebook">
+              <Share2 size={20} />
             </a>
-            <a href="#" className="text-white/70 hover:text-primary-light transition-colors">
-              <Instagram size={20} />
+            <a href="#" className="text-white/70 hover:text-primary-light transition-colors" aria-label="Instagram">
+              <Heart size={20} />
             </a>
-            <a href="#" className="text-white/70 hover:text-primary-light transition-colors">
-              <Twitter size={20} />
+            <a href="#" className="text-white/70 hover:text-primary-light transition-colors" aria-label="Twitter">
+              <MessageCircle size={20} />
             </a>
           </div>
         </div>
