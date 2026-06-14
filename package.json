@@ -1,0 +1,43 @@
+{
+  "name": "konkan-bhatkanti",
+  "version": "1.0.0",
+  "description": "A comprehensive Konkan tourism website covering tourism, adventure, culture, heritage, history, and more",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyangP2003/KonkanBhatkanti.git"
+  },
+  "keywords": [
+    "konkan",
+    "tourism",
+    "travel",
+    "culture",
+    "heritage",
+    "adventure"
+  ],
+  "author": "Konkan Bhatkanti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivyangP2003/KonkanBhatkanti/issues"
+  },
+  "homepage": "https://github.com/DivyangP2003/KonkanBhatkanti#readme",
+  "dependencies": {
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "autoprefixer": "^10.5.0",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.18.0",
+    "next": "^16.2.9",
+    "postcss": "^8.5.15",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3"
+  }
+}
