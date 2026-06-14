@@ -21,7 +21,7 @@ export default function HeroSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: 'easeOut' },
+      transition: { duration: 0.8 },
     },
   }
 
@@ -38,7 +38,7 @@ export default function HeroSection() {
           transition={{
             duration: 20,
             repeat: Infinity,
-            ease: 'easeInOut',
+            type: 'tween',
           }}
           style={{ top: '-10%', left: '-5%' }}
         />
@@ -51,7 +51,7 @@ export default function HeroSection() {
           transition={{
             duration: 25,
             repeat: Infinity,
-            ease: 'easeInOut',
+            type: 'tween',
           }}
           style={{ bottom: '10%', right: '5%' }}
         />
